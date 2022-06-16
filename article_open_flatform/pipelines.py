@@ -5,9 +5,14 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+# from itemadapter import ItemAdapter
+#
+#
+# class ArticleOpenFlatformPipeline:
+#     def process_item(self, item, spider):
+#         return item
+from time import sleep
 
-
-class ArticleOpenFlatformPipeline:
-    def process_item(self, item, spider):
-        return item
+print(3)
+sleep(0.15)
+print(3)
